@@ -1,0 +1,97 @@
+".container": {
+	backgroundColor:"#fff",
+	layout: "vertical"
+},
+"Label": {
+	color: '#000'
+},
+".loginSection": {
+	width: "100%",
+    height: "50",
+    layout: 'vertical',
+    top: 5
+},
+".iconField": {
+	layout: 'horizontal',
+    width: '100%',
+    height: '95%',
+    top: 0
+},
+".userIconContainer": {
+    width: 50,
+    height: "100%",
+    top: 0
+},
+"#imgUser": {
+	height: '50%',
+	image: '/images/login/usuario.png',
+},
+"#imgPass": {
+	height: '50%',
+	image: '/images/login/lock.png',
+},
+".txtField": {
+	color: '#000',
+	width: Titanium.UI.SIZE,
+},
+"#txtPass": {
+	passwordMask: true
+},
+".viewLogin": {
+	top: 10,
+	width: '100%',
+	layout: 'vertical'
+},
+".viewButtons": {
+	top: 10,
+	left: 0,
+	height: 200,
+	layout: 'vertical'
+},
+"#btnLogin": {
+	top: 50,
+	width: "60%",
+	backgroundColor: '#000',
+	borderRadius: 15,
+	color: '#fff'
+},
+"#btnRegister": {
+	top: 15,
+	width: "60%",
+	backgroundColor: '#fff',
+	borderRadius: 15,
+	color: '#000',
+	borderWidth: 1.5,
+	borderColor: "#000"	
+},
+"#lblOlvidoPass": {
+	top: 15
+},
+"#linea": {
+	top: 15,
+	backgroundColor: '#000',
+	height: 5,
+	width: '75%',
+	right: 0,
+	left: '10%'
+},
+"#imgFacebook": {
+	top: 0,
+	left: '33%',
+	height: '50%',
+	width: 50,
+	image: '/images/social/facebook-off.png',
+},
+"#imgInstagram": {
+	top: 0,
+	right: '33%',
+	height: '50%',
+	width: 50,
+	image: '/images/social/instagram-off.png',
+},
+"#viewSocial": {
+	top: 80,
+	left: 0,
+    width: '100%',
+    height: 100,    
+}

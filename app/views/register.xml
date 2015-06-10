@@ -1,0 +1,38 @@
+<Alloy>
+	<Window class="container">
+		<View class="viewRegister">
+		    <ScrollView layout="vertical">			
+			<View class="viewIconSection">
+				<View class="viewImgUser">
+					<ImageView id="imgUser"></ImageView>
+				</View>
+				<View class="viewPhotos">
+					<View class="viewPhotoOrigin">
+						<View class="viewCamera">
+							<ImageView id="imgCamera"></ImageView>
+						</View>
+						<Label class="lblPhoto" text="Sacar"></Label>
+					</View>
+					<View class="viewPhotoOrigin">
+						<View class="viewCamera">
+							<ImageView id="imgSelect"></ImageView>
+						</View>
+						<Label class="lblPhoto" text="Seleccionar"></Label>
+					</View>
+				</View>
+			</View>
+			
+			<View class="viewForm">
+				<TextField class="txtField" id="txtNombre" hintText="NOMBRE" hintTextColor="#999"></TextField>
+				<TextField class="txtField" id="txtMail" hintText="MAIL" hintTextColor="#999"></TextField>
+				<TextField class="txtFieldPass" id="txtPassword1" hintText="CONTRASEÑA" hintTextColor="#999"></TextField>
+				<TextField class="txtFieldPass" id="txtPassword2" hintText="REPITE CONTRASEÑA" hintTextColor="#999"></TextField>
+			    
+			    <View id="linea"></View>
+			    
+			    <Button id="btnRegister" title="CREAR"/> 
+			</View>
+			</ScrollView>	
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,38 @@
+<Alloy>
+	<Window class="container">		
+		<View class="viewLogin">
+			<ScrollView layout="vertical">	
+				<View class="loginSection">
+					<View class="iconField">
+						<View class="userIconContainer">
+							<ImageView id="imgUser"></ImageView>
+						</View>
+						<TextField id="txtUser" class="txtField" hintText="USUARIO" hintTextColor="#999"/>
+					</View>				
+				</View>
+				
+				<View class="loginSection">
+					<View class="iconField">
+						<View class="userIconContainer">
+							<ImageView id="imgPass"></ImageView>
+						</View>
+						<TextField id="txtPass" class="txtField" hintText="CONTRASEÑA" hintTextColor="#999"/>
+					</View>	
+				</View>
+				
+				<View id="linea"></View>
+				
+				<View class="viewButtons">
+					<Button id="btnLogin" onClick="login">INICIAR SESION</Button>
+					<Button id="btnRegister" onClick="register">CREAR CUENTA</Button>
+					<Label  id="lblOlvidoPass" text="¿Olvidaste tu contraseña?"></Label>
+				</View>
+				
+				<View id="viewSocial">					
+					<ImageView id="imgFacebook"></ImageView>
+					<ImageView id="imgInstagram"></ImageView> 
+				</View>	
+			</ScrollView>				
+		</View>		
+	</Window>
+</Alloy>

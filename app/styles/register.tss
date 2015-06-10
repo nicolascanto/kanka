@@ -1,0 +1,85 @@
+".container": {
+	backgroundColor: '#fff',
+	layout: 'vertical'  
+},
+".txtField": {
+	color: '#000',
+	width: Titanium.UI.SIZE,
+	textAlign: 'center',
+},
+".txtFieldPass": {
+	passwordMask: true,
+	color: '#000',
+	width: Titanium.UI.SIZE,
+	textAlign: 'center',
+},
+"Label": {
+	color: '#000'
+},
+".lblPhoto": {
+	left: 10
+},
+".viewRegister": {
+	top: 10,
+	width: '100%',
+	layout: 'vertical'
+},
+".viewIconSection": {
+	layout: 'horizontal',
+    width: Ti.UI.SIZE,
+  	height: Ti.UI.SIZE,
+  	top: 10
+},
+".viewImgUser": {
+	height: 100,
+	width: 100,
+},
+"#imgUser": {
+	height: '70%',
+	image: '/images/register/foto-perfil.png',
+},
+".viewPhotos": {
+	layout: 'vertical',
+	width: Ti.UI.SIZE,
+  	height: 100,
+  	top: 25
+},
+".viewPhotoOrigin": {
+	width: Ti.UI.SIZE,
+  	height: 30,
+  	top: 10,
+  	left: 10,
+	layout: 'horizontal'
+},
+".viewCamera": {
+	left: 5,
+  	width: Ti.UI.SIZE
+},
+"#imgCamera": {
+	height: '70%',	
+	image: '/images/register/sacar-foto.png',
+},
+"#imgSelect": {
+	height: '70%',
+	image: '/images/register/galeria.png',
+},
+".viewForm": {
+	layout: 'vertical',
+	top: 30,
+},
+"#linea": {
+	top: 15,
+	backgroundColor: '#000',
+	height: 5,
+	width: '75%',
+	right: 0,
+	left: '10%'
+},
+"#btnRegister": {
+	top: 20,
+	width: "60%",
+	backgroundColor: '#000',
+	borderRadius: 15,
+	color: '#fff'
+},
+
